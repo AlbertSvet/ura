@@ -1,0 +1,195 @@
+.publications {
+    padding-top: 145px;
+    padding-bottom: 162px;
+    background-image: linear-gradient(0.0deg, #ffffff 0%, #f6f2eb 100%);
+    position: relative;
+    @media (max-width:992px){
+        padding-top: 100px;
+    }
+    // .publications__container
+
+    &__container {}
+
+    // .publications__titel
+
+    &__titel {
+        margin-bottom: 58px;
+    }
+
+    // .publications__grid
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 240px;
+        gap: 44px;
+        @media (max-width:768px){
+            grid-template-columns: 1fr;  
+        }
+    }
+
+    // .publications__item
+
+    &__item {
+       display: flex;
+    //    align-items: center;
+       gap: 44px;
+       min-height: 295px;
+       border: 1px solid #e99c54;
+       overflow: hidden;
+       margin-bottom: 48px;
+       transition: all 0.3s ease 0s;
+       &:last-child{
+        margin-bottom: 0px;
+       }
+       @media (max-width:992px){
+        display: block;
+       }
+    }
+
+    // .publications__img
+
+    &__img {     
+        min-height: 100%;
+      
+        img{
+            width: 260px;
+            height: 100%;
+            object-fit: cover;
+            @media (max-width:992px){
+                width: 100%;
+                max-height: 300px;
+               }
+        }
+    }
+
+    // .publications__block
+
+    &__block {
+            padding: 43px 0px 34px 0px;
+            @media (max-width:992px){
+                padding: 0px 0px 34px 0px;
+               }
+    }
+
+    // .publications__subTitel
+
+    &__subTitel {
+        
+        background-color: #e99c54;
+
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.45;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        color: #ffffff;
+        padding: 0px 10px;
+        margin-bottom: 16px;
+        transition: all 0.3s ease 0s;
+    }
+
+    // .publications__data
+
+    &__data {
+        display: inline-block;
+        margin-right: 30px;
+        background-color: #e99c5486;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-size: 12px;
+        line-height: 1.2;
+        
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: #161614;
+        padding: 3px 10px;
+        transition: all 0.3s ease 0s;
+        @media (max-width:992px){
+              margin-left: 5px;
+        }
+    }
+
+    // .publications__psixo
+
+    &__psixo {
+        display: inline-block;
+        background-color: #e99c5486;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        line-height: 1.2;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: #161614;
+        padding: 3px 10px;
+        transition: all 0.3s ease 0s;
+    }
+
+    // .publications__text
+
+    &__text {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: #161614;
+        // margin: 35px 0px;
+        padding: 35px 0px;
+        padding-right: 90px;
+        overflow: auto;
+        // height: 100px;
+        @media (max-width:992px){
+            padding: 35px 10px 35px 10px;
+           }
+    }
+
+    // .publications__btn
+
+    &__btn {
+        width: 112px;
+        background-color: #e99c54;
+        border-radius: 5px; 
+        font-family: 'Open Sans';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        padding: 0px 10px ;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        height: 26px;
+        transition: all 0.3s ease 0s;
+        &:hover{
+            background-color: #1b4015;          
+        }
+        img{
+            width: 6px;
+            height: 10px;          
+        }
+        @media (max-width:992px){
+             margin-left: 5px; 
+        }
+    }
+
+    // .publications__subItem
+
+    &__subItem {
+    }
+
+
+    // .publications__pagination
+
+    &__pagination {
+        margin-top: 67px;
+        @media (max-width:768px){
+            margin-top: 40px; 
+        }
+    }
+
+
+}
+
+
+

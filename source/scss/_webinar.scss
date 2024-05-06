@@ -1,0 +1,127 @@
+.webinar {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    // .webinar__container
+
+    &__container {}
+
+    // .webinar__titel
+
+    &__titel {
+        margin-bottom: 25px;
+    }
+
+    // .webinar__subtitel
+
+    &__subtitel {
+        margin-bottom: 50px;
+        font-family: "Open Sans";
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: #161614;
+    }
+
+    // .webinar__headerGrid
+
+    &__headerGrid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+        grid-gap: 30px;
+        @media (max-width:992px){
+            grid-template-columns: repeat(2,1fr);
+        }
+        @media (max-width:768px){
+            grid-template-columns: repeat(1,1fr);
+        }
+        
+    }
+
+    // .webinar__item
+
+    &__item {}
+}
+
+//====
+
+.Events {
+    padding-bottom: 190px;
+    @media (max-width:992px){
+          padding-bottom: 80px;
+    }
+    // .Events__container
+
+    &__container {}
+
+    // .Events__titel
+
+    &__titel {
+        
+
+        margin-bottom: 23px;
+    }
+
+    // .Events__subtitel
+
+    &__subtitel {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #161614;
+        margin-bottom: 7px;
+    }
+
+    // .Events__btn
+
+    &__btn {
+        width: 155px;
+        height: 19px;
+        border: 1px solid #92674d;
+        border-radius: 3px;
+        background-color: transparent;
+        opacity: 0.6;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    // .Events__grid
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+        margin-top: 53px;
+        @media (max-width:992px){
+            grid-template-columns: repeat(2,1fr);
+        }
+        @media (max-width:768px){
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+
+    // .Events__item
+
+    &__item {}
+
+    
+
+		// .Events__pagination
+
+		&__pagination {
+            margin-top: 67px;
+            @media (max-width:768px){
+                margin-top: 40px; 
+            }
+        }
+
+
+}
+
+
+//========

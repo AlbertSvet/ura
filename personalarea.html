@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__flex">
+					<div class="header__logo">
+						<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+					</div>
+					<div class="header__menu">
+						
+						<nav class="header__body">
+							<ul class="header__list">
+								<li class="header__item"><a href="index.html" class="header__link">Главная</a></li>
+								<li class="header__item"><a href="about.html" class="header__link">О нас</a></li>
+								<li class="header__item"><a href="expert.html" class="header__link">Эксперты</a></li>
+								<li class="header__item"><a href="" class="header__link">Тарифы</a></li>
+								<li class="header__item"><a href="webinar.html" class="header__link">Вебинары</a></li>
+								<li class="header__item"><a href="blog.html" class="header__link">Блог</a></li>
+								<li class="header__item"><a href="homeTwo.htm" class="header__link">Психологам</a></li>
+								<li class="header__item"><a href="questions.html" class="header__link">Контакты</a></li>
+								
+							</ul>
+						</nav>
+					</div>
+					<div class="header__block">
+						<button class="header__btn" type="button">Выбрать специалиста</button>
+						<a href="personalarea.html" class="header__icon">
+							<img src="img/user.png" alt="user">
+						</a>
+						<button type="button" class="icon-menu"><span></span></button>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		<!-- ========================================== -->
+		<main class="page"> 	
+                <section class="personal">
+                    <div class="personal__container">
+                        <div class="personal__grid">
+                            <div class="personal__item personal-item">
+                                <div class="personal-item__block">
+                                    <div class="personal-item__img">
+                                        <img src="img/personal_logo.png" alt="logo">
+                                    </div>
+                                    <p class="personal-item__subText">Добро пожаловать,<span class="personal-item__name">Иван!</span></p>
+                                    <div class="personal-item__btnBlock">
+                                        <button type="button" class="personal-item__btn">Личная информация</button>
+                                        <button type="button" class="personal-item__btn">Календарь</button>
+                                        <button type="button" class="personal-item__btn">Календарь броней</button>
+                                        <button type="button" class="personal-item__btn">История оплаты</button>
+                                        <button type="button" class="personal-item__btn">Финансовая статистика</button>                                        
+                                        <button type="button" class="personal-item__btn">Купленные <br> вебинары/практики</button>  
+                                        <button type="button" class="personal-item__btn">Реферальная программа</button>                                         
+                                        <button type="button" class="personal-item__btn">Рейтинг</button>
+                                        <button type="button" class="personal-item__btn">Чат тех. поддержки</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Личная информация -->
+                            <div class="personal__item-content">
+                                <h2 class="personal__titel">Личная информация</h1>
+                                <div class="personal__block">
+                                    <form action="#" method="post" class="personal__form">
+                                        <div class="personal__subBlock">
+                                            <div class="personal__itemInput">
+                                                <label for="name">Имя</label>
+                                                <input id="name" type="text" name="name" placeholder="Иван" class="personal__input">
+                                            </div>
+                                            <div class="personal__itemInput">
+                                                <label for="surname">Фамилия</label>
+                                                <input id="surname" type="text" name="surname" placeholder="Иван" class="personal__input">
+                                            </div>
+                                            <div class="personal__itemInput">
+                                                <label for="email">Email</label>
+                                                <input id="email" type="text" name="email" placeholder="psihology@mail.ru" class="personal__input">
+                                            </div>
+                                            <div class="personal__itemInput">
+                                                <label for="tel">Телефон</label>
+                                                <input id="tel" type="tel" name="phone" placeholder="+7 (987) 654-32-10" class="personal__input">
+                                            </div>
+                                        </div>
+                                        <button class="personal__formBtn">Редактировать профиль</button>
+                                        <button class="personal__formBtn personal__formBtn--small">Изменить пароль</button>
+                                    </form>
+                                </div>    
+                            </div>
+                            
+                            <!-- Календарь -->
+                            <div class="personal__item-content calendar">
+                                <h2 class="personal__titel calendar__titel">Календарь</h1>
+                                <div class="calendar__Grid">
+                                    <div class="calendar__item">
+                                        <h3 class="calendar__subtitel calendar__subtitel--green">Знакомство</h3>
+                                        <div class="calendar_headerBlock">
+                                            <div class="calendar__icon"><img src="img/personal_logo.png" alt="icon"></div>
+                                            <p class="calendar__tiem">11:30</p>
+                                        </div>
+                                        <div class="calendar__footerBlock">
+                                            <p class="calendar__name">Иванов Иван Иванович</p>
+                                            <p class="calendar__status">Статус - <span>Бронь</span></p>
+                                            <p class="calendar__topic">Тема запроса:<span>Обычная тема для сеанса</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="calendar__item">
+                                        <h3 class="calendar__subtitel calendar__subtitel--blue">Консультация</h3>
+                                        <div class="calendar_headerBlock">
+                                            <div class="calendar__icon"><img src="img/personal_logo.png" alt="icon"></div>
+                                            <p class="calendar__tiem">11:30</p>
+                                        </div>
+                                        <div class="calendar__footerBlock">
+                                            <p class="calendar__name">Иванов Иван Иванович</p>
+                                            <p class="calendar__status">Статус - <span>Бронь</span></p>
+                                            <p class="calendar__topic">Тема запроса:<span>Обычная тема для сеанса</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="calendar__item">
+                                        <h3 class="calendar__subtitel calendar__subtitel--red">Групповая супервизия</h3>
+                                        <div class="calendar_headerBlock">
+                                            <div class="calendar__icon"><img src="img/personal_logo.png" alt="icon"></div>
+                                            <p class="calendar__tiem">11:30</p>
+                                        </div>
+                                        <div class="calendar__footerBlock">
+                                            <p class="calendar__name">Иванов Иван Иванович</p>
+                                            <p class="calendar__status">Статус - <span>Бронь</span></p>
+                                            <p class="calendar__topic">Тема запроса:<span>Обычная тема для сеанса</span></p>
+                                        </div>
+                                    </div>
+                                 
+                                </div>   
+                            </div>
+
+                            <!-- Календарь броней -->
+                            <div class="personal__item-content reservation">
+                                <h2 class="personal__titel reservation__titel">Календарь броней</h1>
+                                    <div class="reservation__block-calendar">   
+
+                                    </div>
+                                    <div class="personal__block">
+                                        <form action="#" method="post" class="personal__form">
+                                            <div class="personal__subBlock">
+                                                <div class="personal__itemInput">
+                                                    <label for="name">Имя</label>
+                                                    <input id="name" type="text" name="name" placeholder="Иван" class="personal__input">
+                                                </div>
+                                                <div class="personal__itemInput">
+                                                    <label for="surname">Фамилия</label>
+                                                    <input id="surname" type="text" name="surname" placeholder="Иван" class="personal__input">
+                                                </div>
+                                                <div class="personal__itemInput">
+                                                    <label for="email">Email</label>
+                                                    <input id="email" type="text" name="email" placeholder="psihology@mail.ru" class="personal__input">
+                                                </div>
+                                                <div class="personal__itemInput">
+                                                    <label for="tel">Телефон</label>
+                                                    <input id="tel" type="tel" name="phone" placeholder="+7 (987) 654-32-10" class="personal__input">
+                                                </div>
+                                            </div>
+                                            <button class="personal__formBtn">Редактировать профиль</button>
+                                            <button class="personal__formBtn personal__formBtn--small">Изменить пароль</button>
+                                        </form>
+                                    </div>    
+                            </div>
+
+                            <!-- История оплаты -->
+                                <div class="personal__item-content payment-history">
+                                    <h2 class="personal__titel payment-history__titel">История оплат</h1>
+                                        <div class="payment-history__block"> 
+                                            <button type="button" class="finance__btn">Сортировать по:</button>     
+                                            <table class="payment-history__table">
+                                                    <tr height = '24'>
+                                                        <td><strong>№Платежа</strong></td>
+                                                        <td><strong>Дата платежа</strong></td>
+                                                        <td><strong>Назначение</strong></td>
+                                                        <td><strong>Сумма</strong></td>
+                                                        <td><strong>Статус</strong></td>
+                                                    </tr>
+                                                
+                                                    <tr height = '24'>
+                                                        <td>№2541</td>
+                                                        <td>20.10.2024</td>
+                                                        <td>Иванов И.И</td>
+                                                        <td>5.000 руб.</td>
+                                                        <td>Выполнено</td>
+                                                    </tr>
+                                                    <tr height = '24'>
+                                                        <td>№2541</td>
+                                                        <td>20.10.2024</td>
+                                                        <td>Иванов И.И</td>
+                                                        <td>5.000 руб.</td>
+                                                        <td>В обработке</td>
+                                                    </tr>
+
+                                                  
+                                            
+                                            </table>
+                                            
+                                            <button type="button" class="finance__btnTwo">Отправить на печать</button>
+                                        </div>
+                                </div>
+                            <!-- Фин. статистика -->
+                             <div class="personal__item-content finance">
+                                <h2 class="personal__titel finance__titel">Финансовая статистика</h1>
+                                    <div class="finance__block"> 
+                                        <button type="button" class="finance__btn">Сортировать по:</button>     
+                                        <table >
+                                                <tr   height = '24'>
+                                                    <td><strong>Дата сессии</strong></td>
+                                                    <td><strong>Сумма оплаты</strong></td>
+                                                </tr>
+                                            
+                                                <tr height = '24'>
+                                                    <td>10.02.2024</td>
+                                                    <td>10.000 руб.</td>
+                                                </tr>
+
+                                                <tr height = '24'>
+                                                    <th>Общая Сумма</th>
+                                                    <td>10.000 руб.</td>
+                                                </tr>
+                                           
+                                        </table>
+                                        
+                                        <button type="button" class="finance__btnTwo">Отправить на печать</button>
+                                    </div>
+                            </div>
+
+                            <!-- Купленные вебинары/практики -->
+                            <div class="personal__item-content webinars">
+                                <h2 class="personal__titel webinars__titel">Купленные вебинары/практики</h1>
+                                <div class="webinars__block"> 
+                                    <button type="button" class="webinars__btn">Сортировать по:</button>     
+                                    <table >
+                                            <tr   height = '24'>
+                                                <td><strong>Название вебинары/практики</strong></td>
+                                            </tr>
+                                        
+                                            <tr height = '24'>
+                                                <td>Название 1</td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr height = '24'>
+                                                <td>Название 2</td>
+                                                <td></td>
+                                            </tr>
+                                        
+                                    </table>   
+                                </div>
+                            </div> 
+
+
+                            <!-- Реферальная программ -->
+                            <div class="personal__item-content referral">
+                                    <h2 class="personal__titel referral__titel">Личная информация</h1>
+                                    <div class="referral__block">   
+                                        <div class="referral__blockInput">
+                                            <label for="referral">Реферальная ссылка</label>
+                                            <input type="text" id="referral" name="referral">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="referral__btn">Сгенерировать</button>
+                                    <button type="button" class="referral__btn referral__btn--color">Поделиться</button>
+                            </div>
+
+                            <!-- Рейтинг -->
+                            <div class="personal__item-content rating">
+                                <h2 class="personal__titel calendar__titel">Рейтинг</h1>
+                                    <div class="rating__block">
+                                        <div class="rating__text">Ваш текущий рейтинг - <span>5.0</span></div>
+                                        <div class="rating__iconBlock">
+                                            <span class="rating__icon">
+                                                <img src="img/star_77949.svg" alt="icon">
+                                            </span>
+                                            <span class="rating__icon">
+                                                <img src="img/star_77949.svg" alt="icon">
+                                            </span>
+                                            <span class="rating__icon">
+                                                <img src="img/star_77949.svg" alt="icon">
+                                            </span>
+                                            <span class="rating__icon">
+                                                <img src="img/star_77949.svg" alt="icon">
+                                            </span>
+                                            <span class="rating__icon">
+                                                <img src="img/star_77949.svg" alt="icon">
+                                            </span>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!-- тех. поддержка -->
+                            <div class="personal__item-content support">
+                                <h2 class="personal__titel support__titel">Техническая поддержка</h1>
+                                    <div class="support__block">                                        
+                                    </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </section>                
+		</main>
+		<!-- ========================================== -->
+		<footer class="footer personalarea-gradient">
+			<div class="footer__container _container">
+				<div class="footer__grid">
+					<div class="footer__item">
+						<div class="footer__logo">
+							<a href="#">
+								<img src="img/logo.png" alt="logo">
+							</a>
+						</div>
+						<p class="footer__text">© 2024. “ДуШа-РаЗум” – Онлайн консультации психологов. 18+ Все права защищены. Полное или частичное копирование материалов запрещено.</p>
+					</div>
+					<div class="footer__itemTwo">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="" class="footer__link">Главная</a></li>
+							<li class="footer__item"><a href="about.html" class="footer__link">О нас</a></li>
+							<li class="footer__item"><a href="expert.html" class="footer__link">Эксперты</a></li>
+							<li class="footer__item"><a href="" class="footer__link">Тарифы</a></li>
+							<li class="footer__item"><a href="webinar.html" class="footer__link">Вебинары</a></li>
+							<li class="footer__item"><a href="blog.html" class="footer__link">Блог</a></li>
+							<li class="footer__item"><a href="homeTwo.htm" class="footer__link">Психологам</a></li>
+							<li class="footer__item"><a href="questions.html" class="footer__link">Контакты</a></li>
+						</ul>
+						<div class="footer__subItem">
+							<p class="footer__subtext"><a href="">Политика конфиденциальности 
+								Пользовательское соглашение</a></p>
+							<p class="footer__subtext">Разработка сайта “Название”</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/personalarea.js"></script>
+</body>
+</html>

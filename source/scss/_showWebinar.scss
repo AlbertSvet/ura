@@ -1,0 +1,136 @@
+.psychology {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  
+    background-image: linear-gradient(180.0deg, #ffffff 0%, #f6f2eb 100%);
+    // .psychology__container
+
+    &__container {}
+
+    // .psychology__titel
+
+    &__titel {
+            margin-bottom: 22px; 
+    }
+
+    // .psychology__subtitel
+
+    &__subtitel {
+        font-family: 'Open Sans';
+        font-size: 22px;
+        line-height: 1.2;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: #161614;
+        margin-bottom: 72px;
+    }
+
+    // .psychology__blockVideo
+
+    &__blockVideo {
+        // display: flex;
+        max-width: 1050px;
+        max-height: 647px;
+        video{
+           
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+		// .psychology__text
+
+		&__text {
+            max-width: 1050px;
+            font-family: 'Open Sans';
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+            color: #161614;
+            margin-top: 53px;
+        }
+
+
+}
+
+
+.also {
+    padding-bottom: 270px;
+    @media (max-width:992px){
+          padding-bottom: 80px;
+    }
+    background-image: linear-gradient(0.0deg, #ffffff 0%, #f6f2eb 100%);
+    // .also__container
+
+    &__container {}
+
+    // .also__subtitel
+
+    &__subtitel {
+        font-family: 'Open Sans';
+        font-size: 22px;
+        line-height: 1.2;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        color: #161614;
+
+        margin-bottom: 71px;
+    }
+
+    // .also__slider
+
+    &__slider {
+        overflow: hidden;
+        position: relative;
+        padding: 0px 30px;
+    }
+
+    // .also__wrapper
+
+    &__wrapper {}
+
+    // .also__slide
+
+    &__slide {
+        cursor: grab;
+        &:active{
+            cursor: grabbing;
+        }
+    }
+
+    // .also__item
+
+    &__item {}
+
+
+    // .also__left
+
+    &__left {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        background-color: transparent;
+        z-index: 20;
+    }
+
+    // .also__right
+
+    &__right {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        background-color: transparent;
+        z-index: 20;
+    }
+
+
+}
+
+
+
+
